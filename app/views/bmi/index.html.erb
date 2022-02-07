@@ -1,0 +1,6 @@
+<h1>Bmi Calculator</h1>
+<%= form_tag '/bmi/result' do %>
+  Height:<%= text_field_tag 'body_height' %>cm<br />
+  Weight:<%= text_field_tag 'body_weight' %>kg<br />
+  <%= submit_tag 'Start calculate' %>
+<% end %>

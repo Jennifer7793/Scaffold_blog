@@ -58,6 +58,11 @@ class PostsController < ApplicationController
 
     def about
     end
+
+    def hello
+      render plain: "<h1>Hihi, type in controller</h1>"
+      puts "-----Hello-----"
+    end
   end
 
   private
